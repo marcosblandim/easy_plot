@@ -3,9 +3,9 @@
 
 Easy function to plot graphs of mathematical equations.
 
-# Usage:
+# usage:
 
 ```shell
-import easy_plot
+from easy_plot import plot
 plot(<string_function_or_function_object>, range=[left_x,right_x], step=<int_bigger_than_1>)
 ```
