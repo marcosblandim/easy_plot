@@ -3,7 +3,14 @@
 
 Easy function to plot graphs of mathematical equations.
 
-# usage:
+## install
+
+```shell
+git clone https://github.com/marcosblandim/easy_plot.git
+pip install -r requirements.txt
+```
+
+## usage
 
 ```shell
 from easy_plot import plot
