@@ -7,5 +7,9 @@ Easy function to plot graphs of mathematical equations.
 
 ```shell
 from easy_plot import plot
-plot(<string_function_or_function_object>, range=[left_x,right_x], step=<int_bigger_than_1>)
+plot(function, x_range, x_step)
 ```
+
+* function: function object or string of mathematical expression.
+* x_range: iterable with 2 integers defining where the x axis plotting starts and ends.
+* x_step: defines the steps in the x axis.
